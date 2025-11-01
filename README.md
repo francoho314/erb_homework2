@@ -23,7 +23,7 @@
 ```
 erb_homework2/
 ├── manage.py                 # Django项目管理脚本
-├── generate_sample_data.py   # 数据生成主脚本
+├── generate_data.py   # 数据生成主脚本
 ├── requirements.txt          # 项目依赖
 ├── db.sqlite3               # SQLite数据库文件
 └── sample_data/             # Django应用目录
@@ -155,7 +155,7 @@ python manage.py migrate
 python manage.py createsuperuser
 
 # 4. 运行数据生成（仅数据）
-python generate_sample_data.py
+python generate_data.py
 ```
 
 ### 管理面板功能
@@ -203,7 +203,7 @@ DATABASES = {
 
 ### 扩展数据生成
 
-修改 `generate_sample_data.py` 中的相应函数来：
+修改 `generate_data.py` 中的相应函数来：
 - 添加更多样本数据
 - 修改现有数据格式
 - 添加数据验证逻辑
@@ -233,7 +233,7 @@ DATABASES = {
 rm db.sqlite3
 
 # 重新运行数据生成脚本
-python generate_sample_data.py
+python generate_data.py
 ```
 
 ## 💻 开发说明
@@ -280,7 +280,7 @@ python generate_sample_data.py
 
 ---
 
-**开始使用**: 运行 `python generate_sample_data.py` 即可体验完整的样本数据生成系统！
+**开始使用**: 运行 `python generate_data.py` 即可体验完整的样本数据生成系统！
 
 ## 👥 贡献
 
