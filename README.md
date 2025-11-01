@@ -83,7 +83,7 @@ pip install django
 
 4. **运行数据生成脚本**
 ```bash
-python generate_sample_data.py
+python generate_data.py
 ```
 
 这个脚本会自动执行以下操作：
@@ -126,7 +126,7 @@ python manage.py runserver
 
 ### 数据生成脚本功能
 
-`generate_sample_data.py` 脚本提供完整的数据管理功能：
+`generate_data.py` 脚本提供完整的数据管理功能：
 
 #### 1. 自动数据库设置
 - 创建和应用迁移文件
