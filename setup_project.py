@@ -13,7 +13,7 @@ def setup_project():
     print("设置Django项目...")
     
     # 设置环境变量
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sample_data.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
     os.environ['LANGUAGE_CODE'] = 'zh-hans'
     
     try:
